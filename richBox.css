@@ -1,0 +1,33 @@
+#richBox {
+    height: 235px;
+    width: 690px;
+}
+
+#richBox-bar {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-bottom: 0;
+}
+
+#richBox-bar button {
+    width: 36px;
+    height: 34px;
+}
+
+#richBox-input {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-radius: 3px;
+    height: 100%;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+/* If using Bootstrap 3, this keeps the focus properties to look uniform with other form inputs */
+#richBox-input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}

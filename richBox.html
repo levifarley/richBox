@@ -1,0 +1,23 @@
+<!-- richBox -->
+<div id="richBox">
+    <div id="richBox-bar">
+        <button class="btn btn-default" type="button" id="richBox-bold" title="Bold" onclick="richBoxAction('bold')"><i class="fa fa-bold"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-italic" title="Italic" onclick="richBoxAction('italic')"><i class="fa fa-italic"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-underline" title="Underline" onclick="richBoxAction('underline')"><i class="fa fa-underline"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-strike" title="Strikethrough" onclick="richBoxAction('strikeThrough')"><i class="fa fa-strikethrough"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-left" title="Align Left" onclick="richBoxAction('justifyLeft')"><i class="fa fa-align-left"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-center" title="Align Center" onclick="richBoxAction('justifyCenter')"><i class="fa fa-align-center"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-right" title="Align Right" onclick="richBoxAction('justifyRight')"><i class="fa fa-align-right"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-link" title="Create Link" onclick="richBoxAction('createLink')"><i class="fa fa-link"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-unlink" title="Remove Link" onclick="richBoxAction('unlink')"><i class="fa fa-unlink"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-small" title="Decrease Text Size" onclick="richBoxAction('decreaseFontSize')"><small>A</small></button>
+        <button class="btn btn-default" type="button" id="richBox-regular" title="Default Text Size" onclick="richBoxAction('removeFormat')">A</button>
+        <button class="btn btn-default" type="button" id="richBox-large" title="Increase Text Size" onclick="richBoxAction('increaseFontSize')"><big>A</big></button>
+        <button class="btn btn-default" type="button" id="richBox-indent" title="Indent" onclick="richBoxAction('indent')"><i class="fa fa-indent"></i></button>
+        <button class="btn btn-default" type="button" id="richBox-outdent" title="Outdent" onclick="richBoxAction('outdent')"><i class="fa fa-outdent"></i></button>
+
+        <button class="btn btn-danger hide" type="button" onclick="console.log(document.getElementById('richBox-input').innerHTML);">!</button><!-- Testing purposes, displays richBox's output to your browser's console. Simply remove the 'hide' class to use! -->
+    </div>
+    <div id="richBox-input" contenteditable></div>
+</div>
+<!-- /richBox -->
