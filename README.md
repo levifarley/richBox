@@ -12,4 +12,6 @@ To inplement richBox into your project:
 3. Include Bootstrap 3 https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css
 4. Include FontAwesome https://use.fontawesome.com/releases/v5.8.1/css/all.css
 
+Compatable with most browsers, your milage may vary on certain button actions. As usual, IE doesn't play nicely.
+
 Feel free to use and modify this code as you want to make your life easier!
